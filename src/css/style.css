@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  border: 1rem;
+  padding: 1rem;
+  background-color: #a9a9a9;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  width: 500px;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.informations {
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  gap: 10rem;
+}
+
+.quebra {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.manda {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2rem;
+  padding-right: 1rem;
+}
+.ajusta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0, 5px;
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
